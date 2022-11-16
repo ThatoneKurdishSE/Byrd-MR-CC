@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 function HeroSection (){
 
+    //--------Styles--------//
     const StyledHeroSection = styled.div`
         background-color: orange;
         height: 100%;
