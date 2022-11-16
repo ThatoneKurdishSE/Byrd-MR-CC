@@ -49,7 +49,7 @@ function HeroSection (){
                 <StyledHeroPicture src={DronePicture} />
                 <SideBarLinks>
                     <ListedLink>
-                        <Link to='/home'>Home</Link>
+                        <Link to='/'>Home</Link>
                     </ListedLink>
                     <ListedLink>
                         <Link to='/contact'>Contact</Link>
