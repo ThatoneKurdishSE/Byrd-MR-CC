@@ -9,21 +9,20 @@ const Navbar = () => {
 return (
 	<>
 	<Nav>
-
-		<NavMenu>
-		<NavLink to='/' activeStyle>
+		<NavMenu data-cy='navigationBar'>
+		<NavLink to='/' activeStyle data-cy='home'>
 			Home
 		</NavLink>
-		<NavLink to='/store' activeStyle>
+		<NavLink to='/store' activeStyle data-cy='store'>
 			Store
 		</NavLink>
-		<NavLink to='/tutorials' activeStyle>
+		<NavLink to='/tutorials' activeStyle data-cy='tutorial'>
 			Tutorials
 		</NavLink>
-		<NavLink to='/blog' activeStyle>
+		<NavLink to='/blog' activeStyle data-cy='blog'>
 			Blog
 		</NavLink>
-		<NavLink to='/contact' activeStyle>
+		<NavLink to='/contact' activeStyle data-cy='contact'>
 			Contact
 		</NavLink>
 		</NavMenu>

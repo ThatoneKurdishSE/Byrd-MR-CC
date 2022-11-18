@@ -73,16 +73,16 @@ function ContactForm() {
 
     return(
         <div>
-            <StyledForm onSubmit={handleSubmit}>
-                <StyledLabel>FULL NAME</StyledLabel>
-                <StyledInput type='text' autoFocus value={fullName} onChange={(e) => setFullName(e.target.value)} placeholder='Enter your full name'/>
+            <StyledForm onSubmit={handleSubmit} data-cy='contact-form'>
+                <StyledLabel >FULL NAME</StyledLabel>
+                <StyledInput type='text' data-cy='name' autoFocus value={fullName} onChange={(e) => setFullName(e.target.value)} placeholder='Enter your full name'/>
                 <StyledLabel>EMAIL</StyledLabel>
                 <StyledInput type='text' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Enter your email'/>
                 <StyledLabel>MESSAGE</StyledLabel>
                 <StyledInput type='text' value={message} onChange={(e) => setMessage(e.target.value)} placeholder='What are your plans?'/>
-                <StyledSubmitButton type='submit'>SEND MESSAGE</StyledSubmitButton>
+                <StyledSubmitButton type='submit' data-cy='submit-button'>SEND MESSAGE</StyledSubmitButton>
             </StyledForm>
-            {submitted ? <ConfirmationMessage>We got your message. Thank you for taking the time to contact us!</ConfirmationMessage> : null}
+            {submitted ? <ConfirmationMessage data-cy='confirmation-message'>We got your message. Thank you for taking the time to contact us!</ConfirmationMessage> : null}
         </div>
     );
 };
