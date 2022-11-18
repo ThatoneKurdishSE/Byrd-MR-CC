@@ -5,6 +5,14 @@ Byrd MR is a front-end app that showcases a drone.
 App is created using React, and utilizing Cypress for integration testing.
 And styling was done through using styled component.
 
+React was used because:
+    It is easy to control states and pass components around.
+
+Styled was used because:
+    It is a descriptive way of styling and forces developer to be mindful + efficient with the amount of styling that is contained within each component.
+    The usage of descriptive consts visually helps with clearity of what is displayed and the order it is displayed in.
+
+
 ## Available Scripts
 
 In the project directory, you can run:

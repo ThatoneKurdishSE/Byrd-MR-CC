@@ -10,8 +10,6 @@ import ContactForm from './components/contactForm/ContactForm';
 function App() {
   return (
     <Router>
-      <div className="App">
-      </div>
       <NavigationBar />
       <Routes>
         <Route exact path='/' element={<HeroSection />}></Route>
