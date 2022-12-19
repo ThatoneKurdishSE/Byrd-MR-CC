@@ -3,7 +3,7 @@ The Byrd MR App
 Byrd MR is a front-end app that showcases a drone.
 
 App is created using React, and utilizing Cypress for integration testing.
-And styling was done through using styled component.
+And styling was done through the styled component.
 
 React was used because:
     It is easy to control states and pass components around.
